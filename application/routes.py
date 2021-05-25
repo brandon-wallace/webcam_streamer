@@ -33,3 +33,17 @@ def video_stream():
 
     return Response(generator(video),
                     mimetype='multipart/x-mixed-replace; boundary=frame')
+
+
+@app.errorhandler(404)
+def page_not_found(error):
+    '''404 page not found route'''
+
+    return render_template('404.html'), 404
+
+
+@app.errorhandler(500)
+def internal_error(error):
+    '''500 page not found route'''
+
+    return render_template('500.html'), 500

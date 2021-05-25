@@ -1,13 +1,54 @@
-{# templates/500.html #}
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
 
-{% extends "layout.html" %}
+  <head>
 
-{% block title %}Internal Server Error{% endblock %}
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="description" content="A webcam streamer">
+    <meta name="author" content="Brandon Wallace">
+    <link rel="shortcut icon" href="{{ url_for('static', filename='images/favicon.ico') }}">
+    <link rel="stylesheet" media="screen,projection,tv" href="{{ url_for('static', filename='css/style.css') }}">
+    <title>500 server error - webcam streamer</title>
 
-{% block content %}
+  </head>
 
-  <div class="error">
-    <h1 class="error__text">500 Internal Server Error</h1>
-  </div>
+  <body>
+  
+    <noscript>
+      <p style="color:#FC0000;text-align:center">Please enable Javascript</p>
+    </noscript>
 
-{% endblock %}
+    <!-- START header -->
+
+    <header>
+  
+      <h1>500 Server Error</h1>
+  
+    </header>
+
+    <!-- END header -->
+
+    <!-- START main -->
+  
+    <main>
+  
+  
+    </main>
+
+    <!-- END main -->
+
+    <!-- START footer -->
+
+    <footer>
+  
+      <p>created by <a href="https://brandonwallace.cc">brandon wallace</a> &copy; 2021</p>
+
+    </footer>
+
+    <!-- END footer -->
+
+  </body>
+
+</html>

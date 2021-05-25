@@ -2,10 +2,10 @@
 
 Requirements
 
-A web camera
-Python 3.7+
-opencv-python
-flask
+* A web camera
+* Python 3.7+
+* opencv-python
+* flask
 
 
 ```

@@ -4,8 +4,11 @@ Requirements
 
 * A web camera
 * Python 3.7+
-* opencv-python
-* flask
+* Opencv-python
+* Flask
+
+
+![gif webcam_streamer.gif](/webcam_streamer.gif)
 
 
 ```
